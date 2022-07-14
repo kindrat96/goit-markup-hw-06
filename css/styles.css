@@ -661,7 +661,6 @@ address-footer {
 
 .footer-address {
   margin-right: 70px;
-  width: 231px;
 }
 
 .footer-connect {
@@ -1021,6 +1020,11 @@ address-footer {
 
 /* Modal-window*/
 
+.window-form-label {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .title-window {
   margin-bottom: 30px;
 
@@ -1111,8 +1115,8 @@ address-footer {
 .window-form {
   margin-bottom: 28px;
 
-  position: relative;
   display: block;
+  position: relative;
   cursor: pointer;
 }
 
@@ -1161,7 +1165,8 @@ address-footer {
 
 .policy-window-form {
   margin-bottom: 30px;
-  left: 31px;
+  left: 23px;
+  padding-top: 3px;
 
   position: relative;
   display: block;
@@ -1170,11 +1175,10 @@ address-footer {
 
 .policy-text {
   color: var(--color-blue);
+  text-decoration: underline;
 }
 
 .input-checkbox-window {
-  -moz-appearance: none;
-  -webkit-appearance: none;
   appearance: none;
 }
 
