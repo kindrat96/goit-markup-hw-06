@@ -467,7 +467,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="modal-close-button">
-          <svg>
+          <svg class="close-window">
             <use href="./images/icons.svg#icon-close-window"></use>
           </svg>
         </button>
@@ -476,45 +476,46 @@
           <h2 class="title-window">Оставьте свои данные, мы вам перезвоним</h2>
 
           <label class="window-form">
+            <span class="text-window-form">Им'я</span>
             <input class="input-window-form" type="text" name="name" placeholder=" " />
             <svg class="icons-window-form">
               <use href="./images/icons.svg#icon-w-person"></use>
             </svg>
-            <span class="text-window-form">Им'я</span>
           </label>
 
           <label class="window-form">
+            <span class="text-window-form">Телефон</span>
             <input class="input-window-form" type="tel" name="tel" placeholder=" " />
             <svg class="icons-window-form">
               <use href="./images/icons.svg#icon-w-phone"></use>
             </svg>
-            <span class="text-window-form">Телефон</span>
           </label>
 
           <label class="window-form">
+            <span class="text-window-form">Почта</span>
             <input class="input-window-form" type="email" name="mail" placeholder=" " />
             <svg class="icons-window-form">
               <use href="./images/icons.svg#icon-w-email"></use>
             </svg>
-            <span class="text-window-form">Почта</span>
           </label>
 
           <label class="comment-window-label">
-            <textarea
-              class="comment-window"
-              name="comment"
-              rows="10"
-              placeholder="Введите текст"
-            ></textarea>
             <span class="comment-window-text">Комментарий</span>
+            <textarea
+            class="comment-window"
+            name="comment"
+            rows="10"
+            placeholder="Введите текст"
+            ></textarea>
           </label>
 
           <label class="policy-window-form">
             <input class="input-checkbox-window" type="checkbox" name="policy" />
-            <span class="icons-checkbox-window"> </span>
+            <span class="icons-checkbox-window">
             <svg class="icons-check-window">
               <use href="./images/icons.svg#icon-check"></use>
             </svg>
+          </span>
             Соглашаюсь с рассылкой и принимаю
             <a class="policy-text" href="#"> Условия договора</a>
           </label>
