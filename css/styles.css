@@ -1074,33 +1074,27 @@ fill: var(--color-blue);
 }
 
 .text-window-form {
-  /* top: 50%;
-  left: 42px;
+margin-bottom: 4px;
 
-  position: absolute; */
+display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-
-  /* transform: translateY(-50%);
-  transition: transform var(--animation-time-function), color var(--animation-time-function); */
 }
 
 .comment-window-text {
-position: absolute;
-  display: block;
+margin-bottom: 4px;
+  
+display: block;
+font-size: 12px;
   line-height: 1.17;
-  font-size: 12px;
   letter-spacing: 0.01em;
-
-  transform: translateY(-129%);
 }
 
 .comment-window {
   width: 100%;
   height: 120px;
   padding: 12px 15px;
-  margin-top: 28px;
 
   resize: none;
   display: block;
